@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+}
+body{
+  background-image:url('images/Background.jpg');
+  background-size:cover;
+  
+}
+
+.grid {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:black;
+  
+}
+
+.grid div {
+  height: 30px;
+  width: 30px;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:black;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+button{
+   border:none;
+   cursor:pointer; 
+   outline:none; 
+}
+#start-button {
+  margin-left:100px;
+  font-size:20px;
+  background-color:yellow;
+  font-weight:bold;
+}
+#playpausebtn{
+  margin-left:50px;
+  background-image:url('images/speaker.jpg');
+  background-size:cover;
+  width:40px;
+  height:30px;
+
+}
+#mutebtn{
+  background-image:url('images/mute.jpg');
+  background-size:cover;
+  width:40px;
+  height:30px;
+  margin-left:30px;
+}
+.score{
+  color:yellow;
+  margin-left:50px;
+}
